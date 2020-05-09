@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Hlo from './Hlo'
+import Hlo2 from './Hlo2'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+    <React.StrictMode>
+      <Hlo name="World"/>
+      {/* <Hlo2 name="World2" /> */}
+    </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -1,21 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Hlo from './Hlo'
-import Hlo2 from './Hlo2'
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Main from './Components/Main'
+import './styles/stylesheet.css'
+import {BrowserRouter} from 'react-router-dom'
 
-ReactDOM.render(
-  
-    <React.StrictMode>
-      <Hlo name="World"/>
-      {/* <Hlo2 name="World2" /> */}
-    </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<BrowserRouter><Main/></BrowserRouter>, document.getElementById('root'))

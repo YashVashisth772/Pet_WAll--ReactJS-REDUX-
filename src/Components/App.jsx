@@ -1,8 +1,8 @@
 
-import Main from './Main'
+import Main from './Main.jsx'
 import {connect} from 'react-redux'
 import {bindActionCreators} from 'redux'
-import * as actions from '../redux/actions'
+import * as actions from '../redux/actions.jsx'
 import {withRouter} from 'react-router'
 function mapStateToProps(state) {
     return {

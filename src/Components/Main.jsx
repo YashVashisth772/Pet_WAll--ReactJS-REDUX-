@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import PhotoWall from './PhotoWall'
-import AddPhoto from './AddPhoto'
+import PhotoWall from './PhotoWall.jsx'
+import AddPhoto from './AddPhoto.jsx'
 import {Route, Link} from 'react-router-dom'
-import Single from './Single'
+import Single from './Single.jsx'
 
 class Main extends Component {
     constructor() {

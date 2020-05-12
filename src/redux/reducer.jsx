@@ -1,4 +1,4 @@
-import _posts from '../data/posts'
+import _posts from '../data/posts.jsx'
 import {combineReducers} from 'redux'
 
 function comments(state={}, action) {
